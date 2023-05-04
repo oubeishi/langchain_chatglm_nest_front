@@ -1,0 +1,53 @@
+{
+  "name": "langchain_chatglm_nest_front",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env USAGE=development vite",
+    "build": "cross-env USAGE=production vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.ts,.jsx,.tsx --fix",
+    "lint:style": "stylelint --cache --fix \"**/*.{vue,css,scss,less}\""
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.7",
+    "element-plus": "^2.2.28",
+    "jszip": "^3.10.1",
+    "pinia": "^2.0.22",
+    "qs": "^6.11.0",
+    "vue": "^3.2.37",
+    "vue-eslint-parser": "^9.1.0",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "@types/qs": "^6.9.7",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "autoprefixer": "^10.4.12",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.5.1",
+    "postcss": "^8.4.21",
+    "postcss-html": "^1.5.0",
+    "postcss-less": "^6.0.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.57.1",
+    "tailwindcss": "^3.2.4",
+    "typescript": "4.8.3",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-vue-components": "^0.22.7",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
+  }
+}
